@@ -14,7 +14,7 @@ h1 {
 .colormy{
     color:orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom:39px;
 }
@@ -46,8 +46,37 @@ section{
 .colormy2{
     color: aquamarine;
 }
+.colormy3{
+    color:#EC56BF ;
+}
 .dream-big{
     background-image:url(image/dream-bg.png);
     background-repeat:no-repeat;
     background-position:right;
+}
+
+.experiwnce-item{
+    width: 50%;
+    padding-left: 2%;
+    padding-bottom:5%;
+    box-shadow:15px 15px 30px blue;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius:7px;
+   
+}
+.experiences-beckground{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#full-stack{
+border-left: 8px solid #c07717;
+}
+
+#baby-web{
+    border-left: 8px solid #9e17c0;
+}
+
+footer{
+    text-align: center;
 }
